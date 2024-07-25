@@ -1,0 +1,18 @@
+body {
+    font-family: "Brush Script MT";
+}
+
+.container {
+    /* border: 1px solid rgb(177, 60, 25); */
+    /* margin: 0 auto; */
+    width: 700px;
+    margin-left: 100px;
+}
+
+
+img {
+    /* margin: auto auto; */
+    display: block;
+    height: 500px;
+    width: auto;
+}
