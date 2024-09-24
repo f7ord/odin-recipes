@@ -3,20 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>Home - Odin Recipes</title>
+        <link rel="stylesheet" href="index-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Odin Recipes</h1>
-        <ul>
-            <li>
-                <a href="recipes/summer-grilled-shrimp-salad.html" target="_blank">Summer Grilled Shrimp Salad</a>
-            </li>
-            <li>
-                <a href="recipes/lasagna.html" target="_blank">Lasagna</a>
-            </li>
-            <li>
-                <a href="recipes/ginger-cookies.html" target="_blank">Gingerbread Cookies</a>
-            </li>
-        </ul>
-        
+        <nav>
+            <a href="recipes/summer-grilled-shrimp-salad.html" class="recipe-box">
+                <div class="img-container">
+                    <img src="recipes/img/grilled-shrimp-finished-dish.webp" 
+                    alt="" width="190" height="190">
+                </div>
+                <span class="name-box">
+                    Summer Grilled Shrimp Salad
+                </span>
+            </a>
+            <a href="recipes/lasagna.html" class="recipe-box">
+                <div class="img-container">
+                    <img src="recipes/img/lasagna-finished-dish.webp" 
+                    alt="" width="190" height="190">
+                </div>
+                <span class="name-box">
+                    Lasagna
+                </span>
+            </a>
+            <a href="recipes/ginger-cookies.html" class="recipe-box">
+                <div class="img-container">
+                    <img src="recipes/img/ginger-cookies-finished.jpg" 
+                    alt="" width="190" height="190">
+                </div>
+                <span class="name-box">
+                    Gingerbread cookies
+                </span>
+            </a>
+        </nav>        
     </body>
 </html>
