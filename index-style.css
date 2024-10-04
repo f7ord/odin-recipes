@@ -1,9 +1,7 @@
-html {
+* {
     box-sizing: border-box;
-}
-
-*, *::after, *::before {
-    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -11,26 +9,21 @@ body {
 }
 
 .recipe-box {
-    padding: 0;
     display: inline-block;
+    margin: 20px 10px;
+}
+
+nav {
+    display: flex;
 }
 
 .name-box {
-    /* background-color: yellow; */
     display: inline-block;
     text-align: center;
     width: 190px;
-    min-height: 38px;
     margin-top: 5px;
     padding: 0;
     color: black;
     font-weight: bold;
     font-size: 19px;
 }
-
-
-
-
-
-
-
