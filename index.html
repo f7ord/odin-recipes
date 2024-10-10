@@ -9,35 +9,55 @@
         <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <nav>
-            <a href="recipes/summer-grilled-shrimp-salad.html" class="recipe-box">
-                <div class="img-container">
-                    <img src="recipes/img/grilled-shrimp-finished-dish.webp" 
-                    alt="" width="190" height="190">
+        <nav class="nav-bar-container">
+            <div class="nav-bar">
+                <div class="logo"><a href="">OdinRecipes</a></div>
+                <div class="search">
+                    <input type="search" name="" id="" placeholder="Find a recipe">
                 </div>
-                <span class="name-box">
-                    Summer Grilled Shrimp Salad
-                </span>
-            </a>
-            <a href="recipes/lasagna.html" class="recipe-box">
-                <div class="img-container">
-                    <img src="recipes/img/lasagna-finished-dish.webp" 
-                    alt="" width="190" height="190">
-                </div>
-                <span class="name-box">
-                    Lasagna
-                </span>
-            </a>
-            <a href="recipes/ginger-cookies.html" class="recipe-box">
-                <div class="img-container">
-                    <img src="recipes/img/ginger-cookies-finished.jpg" 
-                    alt="" width="190" height="190">
-                </div>
-                <span class="name-box">
-                    Gingerbread cookies
-                </span>
-            </a>
-        </nav>        
+                <div class="cuisines nav-link"><a href="">Cuisines</a></div>
+                <div class="breakfast nav-link"><a href="">Breakfast</a></div>
+                <div class="lunch nav-link"><a href="">Lunch</a></div>
+                <div class="dinner nav-link"><a href="">Dinner</a></div>
+                <div class="about nav-link"><a href="">About</a></div>
+                <div class="signup nav-link"><a href="">SignUp</a></div>
+            </div>
+        </nav>
+        
+        <div class="content">
+            <h2>Some Recipes to Try</h2>
+            <div class="recipe-container">
+                <!-- Summer Grilled Shrimp -->
+                <a href="recipes/summer-grilled-shrimp-salad.html" class="recipe">
+                    <div class="img-container">
+                        <img src="recipes/img/grilled-shrimp-finished-dish.webp" 
+                        alt="" width="190" height="190">
+                    </div>
+                    <span class="recipe-name">
+                        Summer Grilled Shrimp Salad
+                    </span>
+                </a>
+                <!-- Lasagna -->
+                <a href="recipes/lasagna.html" class="recipe">
+                    <div class="img-container">
+                        <img src="recipes/img/lasagna-finished-dish.webp" 
+                        alt="" width="190" height="190">
+                    </div>
+                    <span class="recipe-name">
+                        Lasagna
+                    </span>
+                </a>
+                <!-- Gingerbread Cookies-->
+                <a href="recipes/ginger-cookies.html" class="recipe">
+                    <div class="img-container">
+                        <img src="recipes/img/ginger-cookies-finished.jpg" 
+                        alt="" width="190" height="190">
+                    </div>
+                    <span class="recipe-name">
+                        Gingerbread cookies
+                    </span>
+                </a>
+            </div>
+        </div>
     </body>
 </html>
