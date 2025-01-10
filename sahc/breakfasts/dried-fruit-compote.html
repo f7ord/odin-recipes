@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .recipe-info ol,
+            .recipe-info ul {
+                list-style-position: inside;
+            }
+
+            .recipe-container {
+                /* border: 1px solid; */
+                padding: 20px 0;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .recipe {
+                border: 1px solid;
+                width: 1000px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+            }
+
+            .recipe-img {
+                flex: 1 0;
+            }
+
+            .ingredients {
+                margin-bottom: 30px;
+                list-style-type: none;
+            }
+
+            hr {
+                height: 1px;
+                border: none;
+                color: #333333;
+                background-color: rgb(51, 51, 51, .5);
+                max-width: 300px;
+            }
+
+            .steps li,
+            .ingredients li {
+                max-width: 300px;
+            }
+
+            .ingredients,
+            .steps {
+                font-size: 15px;
+            }
+
+            h1 {
+                font-style: italic;
+                margin-bottom: 20px;
+                max-width: 300px;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            h2 {
+                font-weight: 100;
+            }
+
+            .recipe-info {
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="recipe-container">
+            <div class="recipe">
+                <img src="../img/dried-fruit-compote.jpg" alt="Dried Fruit Compote" width="200" height="auto" class="recipe-img">
+                <div class="recipe-info">
+                    <h1>Dried Fruit Compote</h1>
+                    <h2>Ingredients</h2>
+                    <ul class="ingredients">
+                        <li>50g (2oz) dried apple rings</li><hr>
+                        <li>50g (2oz) dried apricots</li><hr>
+                        <li>50g (2oz) dried figs</li><hr>
+                        <li>300ml (<sup>1</sup>&frasl;<sub>2</sub> pint) unsweetened orange juice</li><hr>
+                        <li>300ml (<sup>1</sup>&frasl;<sub>2</sub> pint) water</li><hr>
+                        <li>25g (1oz) hazelnuts</li><hr>
+                    </ul>
+                    <h2>Steps</h2>
+                    <ol class="steps">
+                        <li>Cut the dried apples, apricots,and figs into chunky pieces and place in a bowl.</li>
+                        <li>Mix together the unsweetened orange juice and water and pour over the fruit in the bowl. Cover and leave to macerate in the refrigerator overnight.</li>
+                        <li>The next day, spread the hazelnuts out in a grill pan and toast under a low to moderate heat, shaking the pan frequently until the hazelnuts are browned evenly on all sides.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
