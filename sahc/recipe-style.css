@@ -10,8 +10,10 @@
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    margin: 20px 20px 0 20px;
+    /* margin: 20px 20px 0 20px; */
+    margin: 20px auto;
     border: 1px solid;
+    width: 1000px;
     /* background-color: rgb(173, 172, 167); */
 }
 
